@@ -9,5 +9,5 @@ try:
 except ModuleNotFoundError as e:
   pass
 
-import signal # v831 need release mpp, maybe have bug so remove.
-signal.signal(signal.SIGINT,lambda signum,frame:exit(0))
+# import signal # v831 need release mpp, maybe have bug so remove.
+# signal.signal(signal.SIGINT,lambda signum,frame:exit(0))
